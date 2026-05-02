@@ -116,6 +116,14 @@ Item { // Bar content region
                 Layout.fillWidth: root.useShortenedForm === 2
             }
 
+            CpuTemp {
+
+            }
+
+            NetSpeed {
+
+            }
+
             Media {
                 visible: root.useShortenedForm < 2
                 Layout.fillWidth: true
