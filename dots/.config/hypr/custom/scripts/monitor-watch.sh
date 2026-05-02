@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SETUP_SCRIPT="~/.config/hypr/custom/scripts/monitor-setup.sh"
+SETUP_SCRIPT="$HOME/.config/hypr/custom/scripts/monitor-setup.sh"
 
 # 自分自身の古いプロセスを終了（現在のPIDは除く）
 # pkillが完了するのを少し待つ
