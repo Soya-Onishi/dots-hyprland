@@ -43,8 +43,7 @@ MouseArea {
                 root.alwaysShowAllResources
             Layout.leftMargin: shown ? 6 : 0
             warningThreshold: Config.options.bar.resources.cpuWarningThreshold
-        }
-
+        } 
     }
 
     ResourcesPopup {
