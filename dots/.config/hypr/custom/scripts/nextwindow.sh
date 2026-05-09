@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 mapfile -t ARR < <(
 	hyprctl clients -j |
